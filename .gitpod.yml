@@ -1,0 +1,17 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - name: Setup
+    init: |
+      python3 -m venv venv
+      source venv/bin/activate
+      pip install .
+      pip install pre-commit
+      pre-commit install
+      pip install -r requirements_test.txt
+
+jetbrains:
+  intellij:
+    plugins:
+      - Pythonid

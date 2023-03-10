@@ -1,4 +1,4 @@
-# pysma library
+# pysma library  [![setup automated][gitpod-shield]][gitpod]
 
 [![Workflow Status](https://github.com/kellerza/pysma/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/kellerza/pysma/actions)
 [![Codecov](https://codecov.io/gh/kellerza/pysma/branch/master/graph/badge.svg)](https://codecov.io/gh/kellerza/pysma)
@@ -55,3 +55,7 @@ logger:
 ## Energy Meter
 
 This library can read the second version of the emnergy meter, there is a seperate Home Assistant OS Addon that could also read older Energy Meters directly. See [Energy Meter](https://github.com/kellerza/hassio-sma-em)
+
+[gitpod-shield]: https://img.shields.io/badge/Gitpod-ready_to_code-orange?logo=gitpod
+[gitpod]: https://gitpod.io/from-referrer/
+
